@@ -1,8 +1,14 @@
 var firendsAge = [15, 34, 24, 44];
 var kamalAge = firendsAge[3];
-
-
-
 firendsAge[3] = 55; 
 var position = firendsAge.indexOf(44);
+// console.log(firendsAge);
+// console.log(firendsAge.length);
+firendsAge.pop();
+console.log(firendsAge);
+firendsAge.push(32);
+firendsAge.push(42);
+// console.log(firendsAge);
+// console.log(firendsAge.length);
+firendsAge.pop();
 console.log(firendsAge);
